@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#bc2924"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:paddingBottom="15dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="15dp"
+            android:text="REGISTER "
+            android:textColor="#fff"
+            android:textSize="22dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="50dp">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingTop="5dp"
+          >
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000"
+                android:textSize="21dp"
+                android:layout_marginTop="6dp"
+                android:id="@+id/register_username"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:hint="UserName"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingTop="5dp"
+          >
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000"
+                android:textSize="21dp"
+                android:layout_marginTop="6dp"
+                android:id="@+id/register_email"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:hint="Email"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingTop="5dp"
+            >
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000"
+                android:textSize="21dp"
+                android:layout_marginTop="6dp"
+                android:id="@+id/register_password"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:hint="Password"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingTop="5dp"
+            >
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000"
+                android:textSize="21dp"
+                android:layout_marginTop="6dp"
+                android:id="@+id/register_confirm_password"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:hint="Confirm Password"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="25dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register"
+               android:layout_marginRight="10dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:id="@+id/register_submit"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="@drawable/button"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+              android:layout_marginLeft="10dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:id="@+id/cancel"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="@drawable/button"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

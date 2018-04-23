@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Jewellary Easy Bill</string>
+
+
+    <!--<string name="spin1">Quantity</string>
+    <string-array name="spinner1">
+        <item>GOLD</item>
+        <item>SILVER</item>
+    </string-array>-->
+
+
+    <!--<string name="spin2">Quantity</string>
+    <string-array name="spinner2">
+        <item>22 K</item>
+        <item>24 K</item>
+    </string-array>-->
+
+
+    <!-- <string name="spin3">Quantity</string>
+    <string-array name="spinner3">
+        <item>Necklece</item>
+        <item>Ring</item>
+        <item>Chain</item>
+        <item>Bracelet</item>
+    </string-array>-->
+
+
+</resources>
